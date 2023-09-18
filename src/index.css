@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffe5ec;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* h1 {
+  background-color: red;
+} */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffb3c6;
+}
+
+.pimage {
+  width: 250px;
+  height: 250px;
+}
+.productname {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #2b2d42;
+}
+
+.productcontent {
+  text-align: center;
+  color: #023047;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.productprice {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #011627;
+}
+
+.productcart {
+  background-color: #4361ee;
+  color: #ffffff;
+  border: 1px solid #4361ee;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 4px 8px;
+  margin-bottom: 20px;
+}
+.productcart:hover {
+  font-size: 17px;
+  font-weight: 600;
+  padding: 6px 10px;
+  box-shadow: 0px 0px 10px 0px #4361ee;
+}
+
+.header {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+  color: #ff0054;
+}
+.weltext {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 5px 0 20px 0px;
+  color: #ff0054;
+}
+.cartsection {
+  background-color: #ffc4d1;
+  padding: 20px 0 20px 0;
+  margin: 20px 0 20px 0;
+}
+.csheader {
+  font-size: 30px;
+  color: #ff0054;
+  font-weight: 500;
+  text-align: center;
+  margin: 5px 0 5px 0;
+}
+
+.iName,
+.iPrice {
+  font-size: 17px;
+  color: #2b2d42;
+  font-weight: 500;
+}
+.display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.bb {
+  text-align: center;
+}
+
+.billButton {
+  background-color: #4361ee;
+  color: white;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: 2px solid #4361ee;
+  border-radius: 15%;
+}
+.billButton:hover {
+  box-shadow: 0px 0px 10px 0px #4361ee;
+  font-size: 22px;
+  padding: 12px 17px;
+}
+.bill {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: #212529;
+}
+
+h1 {
+  color: #ffadcb;
+}
